@@ -61,8 +61,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", "BQBTVwAAZqK0fmLrqJfJwYOh29gTcPp2_FlckxppCgFm9zZa0xpRhpgtYpXLcfkpwRBAQMa-SKkJt4iQzdyvvDFV0mV6zGqGVz1631jAgDHH3zcwTNWJZBFdv-N-4nQe3UAemTpGukoHktOhra7DGOjUqB1bhkr_o2pyN9e0X7c1kurPpu63rtV2Z0DogQtkWjkxaXuT3lzoWFn1poj8XB62k-DsN6_A-hEIpFNpECA0UZGMsPYkZG47RW1kBl79CGdOEVNaWhvz_uogYFd4VZVPIlih1Z07qkDVvUNoFrnnzAkf0uknHPcazgJGfHpJC6Q8OaDnA-5R3rFzgGD8j8y5enbg8gAAAAFyKQ6eAA")
-STRING2 = getenv("STRING_SESSION2", "BQBTVwAAnZ8MAhVwtV1DgkcTBEJbp7A0ZQsOA2QTJlNzs4ikBCqqmW2CbcmVx2cMf7NBPAnlVbZcZDMeg2voBEiQ3Cp4iSuoU9jfpcXQmoKrSAzibMiudKPzbGeqAtYm229-zqursdBpr1ROGHN4YortdezXfwdpYfBxNZjNz7BMwfI3E9Ls0F_JZfyhL_E3I9FO0-oLIDLyf2aux7vxw5WePv6DCrCbE2-z_LEn7McHuOaBDAYpbPHL7oc30c_pEBI2TRJXVTEeNCFa6ZuBBmyvbi7YGn5gRrIkgRQtolZWEwxouV-VXCXyxdqRcByUxrYnidRyr0bIQmgfTphqtR1orIzzygAAAAFlAJm7AA")
+STRING1 = getenv("STRING_SESSION", "")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
@@ -88,7 +88,7 @@ TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.png"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.png"
 STREAM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/176d6502c787f08a04471.png"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.png"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
